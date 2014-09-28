@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+  xmlns:gap   = "http://phonegap.com/ns/1.0"
+  id          = "com.heridev.mediatest"
+  versionCode = "2"
+  version     = "1">
+
+  <name>Testing Media</name>
+
+  <description>
+    Testing Media
+  </description>
+
+  <author href="http://heridev.com.mx" email="joseheribertoperezmagana@gmail.com">
+    Jose Heriberto Perez Magaña
+  </author>
+
+  <preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
+
+  <feature name="http://api.phonegap.com/1.0/device" />
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/contacts"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  <feature name="http://api.phonegap.com/1.0/media"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/notification"/>
+
+  <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
+  <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
+  <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+  <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
+  <gap:plugin name="org.apache.cordova.geolocation" version="0.3.7" />
+  <gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+  <gap:plugin name="org.apache.cordova.media-capture" version="0.2.4" />
+  <gap:plugin name="org.apache.cordova.inappbrowser" version="0.2.4" />
+  <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+
+  <access origin="*" />
+
+</widget>
+
